@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'MinhaFonte', sans-serif;
+    line-height: 1.6;
+    background-color: #f1e9b6;
+}
+
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('cyntho-next-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+header {
+    background-color: #fffffff6;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.banner {
+    background-color: #f3d373;
+    padding: 60px 0;
+    color: #fff3f3;
+    font-size: large;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 4px;
+    border: none;
+    width: 1410px;
+}
+
+.text-content {
+    flex: 55%;
+    max-width: 50%;
+    color: rgb(0, 0, 0);
+    padding-left: 30px;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.image-content {
+    flex: 45%;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 100%;
+    padding-right: 1px;
+    width: 782px;
+
+}
+
+.image-content img {
+    max-width: 78.2%;
+    height: auto;
+    object-fit: contain; 
+}
+
+
+.banner h2 {
+    font-size: 2.5rem;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #f30d0d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color:#f30d0d;
+}
+
+.produtos-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.produto {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.produto h3 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+.sobre {
+    color: white;
+}
+
+.contact {
+    color: white;
+}
+
+footer {
+    background-color: #fffcfb;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+}
